@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <title>THE SIMPSONS</title>
+  <style type="text/css">
+  
+    body {
+      /*grey color background and border*/
+      background-size: cover;
+      background: linear-gradient(to left top, black) fixed;
+      background-repeat: no-repeat;
+    }
+
+    h1 {
+      font-size: 10vw;
+      text-align: center;
+      font-family: 'Indie Flower';
+    }
+
+    /*design of the of the images (black borders and white background, black shawdow, ease-in-out effect)*/
+
+    .abe-simpson,
+    .mona-simpson,
+    .clancy-bouvier,
+    .jacqueline-bouvier,
+    .herb-simpson,
+    .homer-simpson,
+    .marger-simpson,
+    .pattty-bouvier,
+    .selma-bouvier,
+    .bart-simpson,
+    .lisa-simpson,
+    .maggie-simpson,
+    .ling-bouvier {
+      width: 200px;
+      box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+      text-align: center;
+      display: inline-block;
+      transition: width 1s ease 0s;
+      padding: 50px;
+      border-radius: 7px;
+      transform: translate(8%, 0);
+    }
+  
+    /*to have one-in and one-out effect within the time*/
+    @keyframes simpsons {
+      0% {
+        opacity: 0;
+      }
+      25% {
+        opacity: 0.80;
+      }
+      75% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0.80;
+      }
+    }
+
+    @-webkit-keyframes simpsons {
+      0% {
+        opacity: 0;
+      }
+      25% {
+        opacity: 0.99;
+      }
+      75% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0.99;
+      }
+    }
+
+
+
+    /*intensify the clarity of box and enlarge the box + border-radius when hover*/
+    div:hover {
+      width: 250px;
+      opacity: 3;
+      border-radius: 25px;
+    }
+    
+  </style>
+</head>
+<h1>THE SIMPSONS</h1>
+<body>
+<div class="abe-simpson">
+    <img src="1.png" alt="abe-simpson" style="width:90%" }>
+    <h2>
+      <font size="6"> Abe Simpson </font><span></h2>
+  </div>
+
+  <div class="mona-simpson">
+    <img src="2.png" alt="mona-simpson" style="width:72%">
+    <h2><font size="6"> Mona Simpson </font><span></h2>
+  </div>
+
+  <div class="clancy-bouvier">
+    <img src="3.png" alt="clancy-bouvier" style="width:84%">
+    <h2><font size="6"> Clancy Bouvier </font><span></h2>
+  </div>
+
+  <div class="jacqueline-bouvier">
+    <img src="4.png" alt="jacqueline-bouvier" style="width:77%">
+    <h2><font size="6"> Jacqueline Bouvier </font><span></h2>
+  </div>
+
+  <div class="herb-simpson">
+    <img src="5.png" alt="herb-simpson" style="width:90%">
+    <h2><font size="6"> Herb Simpson </font><span></h2>
+  </div>
+
+  <div class="homer-simpson">
+    <img src="6.png" alt="homer-simpson" style="width:70%">
+    <h2><font size="6"> Homer Simpson </font><span></h2>
+  </div>
+
+  <div class="marger-simpson">
+    <img src="7.png" alt="marger-simpson" style="width:56%">
+    <h2><font size="6"> Marger Simpson </font><span></h2>
+  </div>
+
+  <div class="pattty-bouvier">
+    <img src="8.png" alt="pattty-bouvier" style="width:97%">
+    <h2><font size="6"> Patty Simpson </font><span></h2>
+  </div>
+
+  <div class="selma-bouvier">
+    <img src="9.png" alt="selma-bouvier" style="width:100%">
+    <h2><font size="6"> Selma Simpson </font><span></h2>
+  </div>
+
+  <div class="bart-simpson">
+    <img src="10.png" alt="bart-simpson" style="width:100%">
+    <h2><font size="6"> Bart Simpson </font><span></h2>
+  </div>
+
+  <div class="lisa-simpson">
+    <img src="11.png" alt="lisa-simpson" style="width:110%">
+    <h2><font size="6"> Lisa Simpson </font><span></h2>
+  </div>
+
+  <div class="maggie-simpson">
+    <img src="12.png" alt="maggie-simpson" style="width:100%">
+    <h2><font size="6"> Marggie Simpson </font><span></h2>
+  </div>
+  <div class="ling-bouvier">
+    <img src="13.png" alt="ling-bouvier" style="width:100%">
+    <h2><font size="6"> Ling Bouvier </font><span></h2>
+  </div>
+  </div>
+</body>
+</html>
